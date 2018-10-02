@@ -5,6 +5,10 @@ import { addExpense } from '../actions/expenses'
 
 export class AddExpensePage extends React.Component {
   onSubmit = (expense) => {
+    // use push
+    // attach then callback
+    // dispatch action
+    // redirect
     this.props.addExpense(expense);
     this.props.history.push('/');
   };
