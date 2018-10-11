@@ -5,7 +5,9 @@
   "author": "Christian Halsell",
   "license": "MIT",
   "engines": {
-    "node": "8.8.0"
+    "node": "8.8.0",
+    "npm": "6.4.1",
+    "yarn": "1.2.1"
   },
   "scripts": {
     "build:dev": "webpack",
